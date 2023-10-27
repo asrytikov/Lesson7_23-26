@@ -1,3 +1,5 @@
+package dz6;
+
 public class Phone {
 
    private String number;
@@ -5,7 +7,7 @@ public class Phone {
    private double weight;
 
     public Phone() {
-        System.out.println("Phone is created");
+        System.out.println("dz6.Phone is created");
     }
 
     public Phone(String number, String model) {
@@ -48,7 +50,7 @@ public class Phone {
     }
 
     public void info(){
-        System.out.printf("Phone: model=%s, number=%s, weight=%.2f\n", this.getModel(), this.getNumber(), this.getWeight());
+        System.out.printf("dz6.Phone: model=%s, number=%s, weight=%.2f\n", this.getModel(), this.getNumber(), this.getWeight());
     }
 
 }
